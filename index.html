@@ -1,0 +1,267 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lucca Sneakers | Los mejores sneakers de Tepito</title>
+    <meta name="description" content="Encuentra los tenis más exclusivos, modernos y de tendencia en Lucca Sneakers. Ubicados en Tepito, CDMX.">
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;600;800;900&family=Inter:wght@400;500;700&display=swap" rel="stylesheet">
+    <!-- FontAwesome for Icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="./css/style.css">
+</head>
+<body>
+
+    <!-- Floating WhatsApp Button -->
+    <a href="https://wa.me/527353884148?text=Hola,%20quiero%20informaci%C3%B3n%20sobre%20sus%20tenis" target="_blank" class="floating-wa" aria-label="Contacto WhatsApp">
+        <i class="fab fa-whatsapp"></i>
+    </a>
+
+    <!-- Navbar -->
+    <header class="navbar" id="navbar">
+        <div class="container nav-container">
+            <a href="#" class="logo">LUCCA<span>SNEAKERS</span></a>
+            <button class="menu-toggle" aria-label="Abrir menú"><i class="fas fa-bars"></i></button>
+            <nav class="nav-links">
+                <a href="#inicio">Inicio</a>
+                <a href="#productos">Productos</a>
+                <a href="#promociones">Ofertas</a>
+                <a href="#coleccion">Exclusivos</a>
+                <a href="#ubicacion">Ubicación</a>
+            </nav>
+            <a href="https://wa.me/527353884148?text=Hola,%20quiero%20informaci%C3%B3n%20sobre%20sus%20tenis" target="_blank" class="btn btn-outline nav-contact">
+                <i class="fab fa-whatsapp"></i> Contactar
+            </a>
+        </div>
+    </header>
+
+    <!-- Hero Section -->
+    <section id="inicio" class="hero">
+        <!-- Hero Background dynamically injected via CSS or img tag -->
+        <div class="hero-bg">
+            <img src="./img/lucca_hero_banner_1773782974351.png" alt="Zapatillas de moda premium">
+            <div class="overlay"></div>
+        </div>
+        <div class="container hero-content">
+            <span class="badg text-accent">Nro. 1 en CDMX</span>
+            <h1 class="hero-title">Los mejores sneakers de Tepito <br><span class="highlight">al mejor precio</span></h1>
+            <p class="hero-desc">Descubre las últimas tendencias en moda streetwear y cultura sneaker. Estilo urbano sin límites.</p>
+            <div class="hero-actions">
+                <a href="https://wa.me/527353884148?text=Hola,%20quiero%20informaci%C3%B3n%20sobre%20sus%20tenis" class="btn btn-primary" target="_blank">
+                    <i class="fab fa-whatsapp"></i> Comprar por WhatsApp
+                </a>
+                <a href="#productos" class="btn btn-secondary">Ver Catálogo</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Products Section -->
+    <section id="productos" class="section products-section">
+        <div class="container">
+            <div class="section-header">
+                <h2>Catálogo <span class="text-accent">Destacado</span></h2>
+                <p>Encuentra tu estilo perfecto entre nuestra variada selección.</p>
+            </div>
+            
+            <div class="tabs">
+                <button class="tab-btn active" data-target="hombres">Hombre</button>
+                <button class="tab-btn" data-target="mujeres">Mujer</button>
+            </div>
+
+            <div class="products-grid active" id="hombres">
+                <div class="product-card">
+                    <div class="img-wrapper">
+                        <img src="https://placehold.co/600x600/1a1a1a/e62323?font=oswald&text=SNEAKER" alt="Tenis hombre rojo">
+                        <span class="tag tag-new">Nuevo</span>
+                    </div>
+                    <div class="product-info">
+                        <h3>Urban Red Boost</h3>
+                        <p class="price">$1,200 MXN</p>
+                        <a href="https://wa.me/527353884148?text=Hola,%20quiero%20informaci%C3%B3n%20sobre%20el%20modelo%20Urban%20Red%20Boost" target="_blank" class="btn-sm btn-outline">Consultar</a>
+                    </div>
+                </div>
+                <div class="product-card">
+                    <div class="img-wrapper">
+                        <img src="https://placehold.co/600x600/1a1a1a/fff?font=oswald&text=SNEAKER" alt="Tenis hombre negro">
+                    </div>
+                    <div class="product-info">
+                        <h3>Stealth Black 1s</h3>
+                        <p class="price">$1,450 MXN</p>
+                        <a href="https://wa.me/527353884148?text=Hola,%20quiero%20informaci%C3%B3n%20sobre%20el%20modelo%20Stealth%20Black%201s" target="_blank" class="btn-sm btn-outline">Consultar</a>
+                    </div>
+                </div>
+                <div class="product-card">
+                    <div class="img-wrapper">
+                        <img src="https://placehold.co/600x600/fff/000?font=oswald&text=SNEAKER" alt="Tenis hombre blanco">
+                    </div>
+                    <div class="product-info">
+                        <h3>Classic Panda Dunk</h3>
+                        <p class="price">$1,100 MXN</p>
+                        <a href="https://wa.me/527353884148?text=Hola,%20quiero%20informaci%C3%B3n%20sobre%20el%20modelo%20Classic%20Panda" target="_blank" class="btn-sm btn-outline">Consultar</a>
+                    </div>
+                </div>
+                <div class="product-card">
+                    <div class="img-wrapper">
+                        <img src="https://placehold.co/600x600/1a1a1a/00f?font=oswald&text=SNEAKER" alt="Tenis hombre azul">
+                        <span class="tag tag-hot">Hot</span>
+                    </div>
+                    <div class="product-info">
+                        <h3>Retro Blue Mid</h3>
+                        <p class="price">$1,350 MXN</p>
+                        <a href="https://wa.me/527353884148?text=Hola,%20quiero%20informaci%C3%B3n%20sobre%20el%20modelo%20Retro%20Blue" target="_blank" class="btn-sm btn-outline">Consultar</a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="products-grid hidden" id="mujeres">
+                <div class="product-card">
+                    <div class="img-wrapper">
+                        <img src="https://placehold.co/600x600/1a1a1a/e62323?font=oswald&text=SNEAKER" alt="Tenis mujer pastel">
+                        <span class="tag tag-new">Nuevo</span>
+                    </div>
+                    <div class="product-info">
+                        <h3>Pastel Chunky V2</h3>
+                        <p class="price">$1,250 MXN</p>
+                        <a href="https://wa.me/527353884148?text=Hola,%20quiero%20informaci%C3%B3n%20sobre%20el%20modelo%20Pastel%20Chunky" target="_blank" class="btn-sm btn-outline">Consultar</a>
+                    </div>
+                </div>
+                <!-- More female cards -->
+                <div class="product-card">
+                    <div class="img-wrapper">
+                        <img src="https://placehold.co/600x600/fff/000?font=oswald&text=SNEAKER" alt="Tenis mujer blanco">
+                    </div>
+                    <div class="product-info">
+                        <h3>Minimal White Force</h3>
+                        <p class="price">$1,150 MXN</p>
+                        <a href="https://wa.me/527353884148?text=Hola,%20quiero%20informaci%C3%B3n%20sobre%20el%20modelo%20Minimal%20White" target="_blank" class="btn-sm btn-outline">Consultar</a>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </section>
+
+    <!-- Promotions Section -->
+    <section id="promociones" class="promo-section">
+        <div class="container promo-container">
+            <div class="promo-content">
+                <h2>Ofertas <span class="text-accent">Especiales</span></h2>
+                <p>Hasta un <strong>30% de descuento</strong> en modelos seleccionados.</p>
+                <a href="https://wa.me/527353884148?text=Hola,%20quisiera%20saber%20qué%20modelos%20tienen%20en%20promoción" class="btn btn-primary" target="_blank">Ver Promociones</a>
+            </div>
+            <div class="promo-image">
+                <img src="./img/lucca_promo_1773783013378.png" alt="Zapatillas en promoción">
+                <div class="promo-badge">-30%</div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Exclusive Collection -->
+    <section id="coleccion" class="exclusive-section">
+        <div class="container exclusive-container">
+            <div class="exclusive-image-wrapper">
+                <img src="./img/lucca_exclusive_1773782998452.png" alt="Colección Exclusiva">
+            </div>
+            <div class="exclusive-content">
+                <h2>Colección <span class="text-accent">Premium</span></h2>
+                <p>Ediciones limitadas y modelos difíciles de encontrar, traídos directamente para los más exigentes del streetwear.</p>
+                <ul>
+                    <li><i class="fas fa-check-circle"></i> Calidad premium garantizada.</li>
+                    <li><i class="fas fa-check-circle"></i> Tallas únicas y limitadas.</li>
+                    <li><i class="fas fa-check-circle"></i> Los estilos más virales del momento.</li>
+                </ul>
+                <a href="https://wa.me/527353884148?text=Hola,%20me%20interesa%20su%20colección%20premium" class="btn btn-primary mt-4" target="_blank">Cotizar Edición Especial</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Lucca Sneakers -->
+    <section id="nosotros" class="about-section bg-darker">
+        <div class="container text-center">
+            <h2>Sobre <span class="text-accent">Lucca Sneakers</span></h2>
+            <p class="about-text">
+                Somos tu tienda de confianza ubicada en el corazón urbano de la ciudad: <strong>Tepito</strong>.
+                Nos diferenciamos por ofrecer una inmensa variedad de modelos modernos, juveniles y de tendencia, 
+                siempre a los precios más accesibles. Buscamos llevar la cultura sneaker y el streetwear a
+                cada rincón, garantizando moda, comodidad y estilo en cada pisada.
+            </p>
+            <div class="features-grid">
+                <div class="feature-box">
+                    <i class="fas fa-shield-alt icon-box"></i>
+                    <h4>Confianza Total</h4>
+                    <p>Cientos de clientes satisfechos respaldan nuestras entregas.</p>
+                </div>
+                <div class="feature-box">
+                    <i class="fas fa-box-open icon-box"></i>
+                    <h4>Variedad Única</h4>
+                    <p>El catálogo más amplio en modelos urbanos.</p>
+                </div>
+                <div class="feature-box">
+                    <i class="fas fa-tags icon-box"></i>
+                    <h4>Mejores Precios</h4>
+                    <p>Calidad increíble sin pagar de más.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Location & Contact -->
+    <section id="ubicacion" class="location-section">
+        <div class="container">
+            <div class="location-wrapper">
+                <div class="location-info">
+                    <h2>Visítanos en <span class="text-accent">El Barrio</span></h2>
+                    <div class="contact-details">
+                        <div class="contact-item">
+                            <i class="fas fa-map-marker-alt"></i>
+                            <div>
+                                <h4>Ubicación</h4>
+                                <p>Aztecas 75, Tepito, Morelos, Cuauhtémoc, 06200 Ciudad de México, CDMX</p>
+                            </div>
+                        </div>
+                        <div class="contact-item">
+                            <i class="fab fa-whatsapp"></i>
+                            <div>
+                                <h4>WhatsApp Directo</h4>
+                                <p>735 388 4148</p>
+                            </div>
+                        </div>
+                    </div>
+                    <a href="https://goo.gl/maps/Aztecas75Tepito" target="_blank" class="btn btn-outline map-btn">
+                        <i class="fas fa-directions"></i> Cómo llegar
+                    </a>
+                </div>
+                <div class="map-container">
+                    <!-- Google Maps Iframe using exact address search -->
+                    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3762.3364235261895!2d-99.130932!3d19.4410372!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x85d1f9300ee74bd7%3A0xe53bc3dcab0fe112!2sAztecas%2075%2C%20Tepito%2C%20Morelos%2C%20Cuauht%C3%A9moc%2C%2006200%20Ciudad%20de%20M%C3%A9xico%2C%20CDMX!5e0!3m2!1sen!2smx!4v1700000000000!5m2!1sen!2smx" width="100%" height="400" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container footer-content">
+            <div class="footer-brand">
+                <a href="#" class="logo">LUCCA<span>SNEAKERS</span></a>
+                <p>Estilo Urbano desde Tepito para todo México.</p>
+            </div>
+            <div class="footer-socials">
+                <a href="#"><i class="fab fa-instagram"></i></a>
+                <a href="#"><i class="fab fa-facebook-f"></i></a>
+                <a href="#"><i class="fab fa-tiktok"></i></a>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <p>&copy; 2026 Lucca Sneakers. Todos los derechos reservados.</p>
+        </div>
+    </footer>
+
+    <!-- Interactive JS -->
+    <script src="./js/main.js"></script>
+</body>
+</html>
